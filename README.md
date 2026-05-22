@@ -9,13 +9,13 @@
 ## Архитектура проекта
 Исходные данные (Excel, GPKG)
 <br>↓
-data_preparing.py → Очистка, нормализация, создание CSV/GDF
+<br>data_preparing.py → Очистка, нормализация, создание CSV/GDF
 <br>↓
-data_load.py → Загрузка в PostgreSQL/PostGIS
+<br>data_load.py → Загрузка в PostgreSQL/PostGIS
 <br>↓
 <br>3–5. Скрипты QGIS → Пространственный анализ (буферы, расстояния и тд)
 <br>↓
-new_data_spatial_qgis.py → Расчет 27 пространственных признаков
+<br>new_data_spatial_qgis.py → Расчет 27 пространственных признаков
 <br>↓
 <br>7–8. Формирование стратифицированной выборки (120 объектов)
 <br>↓
@@ -23,7 +23,7 @@ new_data_spatial_qgis.py → Расчет 27 пространственных п
 <br>↓
 <br>data_prediction_final.py → Обучение моделей (GradientBoosting + RidgeCV)
 <br>↓
-data_prediction_final_executing.py → Прогноз на полный датасет
+<br>data_prediction_final_executing.py → Прогноз на полный датасет
 
 ---
 
