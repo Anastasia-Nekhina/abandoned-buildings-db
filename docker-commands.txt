@@ -1,0 +1,9 @@
+# Команда для запуска контейнера
+
+docker run --name postgis_container -e POSTGRES_USER=surname_n -e POSTGRES_PASSWORD=password -e POSTGRES_DB=issuda_db -p 5433:5433 -d postgis/postgis:latest
+
+# Остановить
+docker stop postgis_container
+
+# Удалить
+docker rm postgis_container
