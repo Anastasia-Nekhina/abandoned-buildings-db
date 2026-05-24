@@ -87,3 +87,4 @@
 | Файл | Назначение |
 |------|------------|
 | `requirements.txt` | Все зависимости Python (geopandas, sqlalchemy, scikit-learn, psycopg2, matplotlib и др.) |
+| `docker-commands.txt` | Примеры команд для Docker для управления БД |
